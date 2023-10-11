@@ -1,0 +1,9 @@
+p {
+    display: none;
+}
+.btn {
+    background: red;
+    display: block;
+    color: #fff;
+    padding: 20px;
+}

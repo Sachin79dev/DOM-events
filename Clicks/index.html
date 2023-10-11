@@ -5,28 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Click Event</title>
 
-    <style>
-        p {
-            display: none;
-        }
-        .btn {
-            background: red;
-            display: block;
-            color: #fff;
-            padding: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
     <h1>Events</h1>
     <button onclick="colorChange()">Click Me!</button>
     <p id="color">You Clicked Me!!!</p>
 
-    <script>
-        function colorChange() {
-            const clr = document.getElementById("color").classList;
-            clr.toggle("btn");
-        }
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>
