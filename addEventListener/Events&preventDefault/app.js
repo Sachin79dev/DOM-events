@@ -4,7 +4,7 @@ const list = document.querySelector("#tasks");
 form.addEventListener("submit", function(e) {
     e.preventDefault();
     const catName = input.value;
-    const newli = document.createelement("li");
+    const newli = document.createElement("li");
     newli.innerText = catName;
     list.append(newli);
     input.value = "";
